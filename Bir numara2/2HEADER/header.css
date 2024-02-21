@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* ?!? Header Start  */
+
+.container {
+  background-color: black;
+  overflow: auto;
+  width: 1519.2px;
+  height: 49.7px;
+}
+.header {
+  position: fixed;
+}
+
+/* ! Header Banner Start */
+
+
+.header-banner {
+  padding: 6px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  column-gap: 8px;
+}
+
+.list-item {
+  list-style: none;
+  margin: 0;
+}
+
+.list-item img {
+  max-width: 1519.2px;
+  height: auto;
+  display: block;
+}
+
+/* ! Header Banner End */
+
+/* ! Header Top Start */
+
+.header-top {
+  background-color: #f15927;
+  max-width: 100%;
+  height: 42px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.header-top-left {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 871px;
+  height: 42px;
+  margin-left: 20px;
+}
+
+.header-top-left-start {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  width: 294px;
+  height: 42px;
+  border-radius: 10px 10px 0 0;
+  margin-top: 12px;
+}
+
+.header-top-left-start span {
+  padding-left: 2px;
+  width: 294px;
+  color: black;
+  font-size: 12px;
+}
+
+.header-top-left-end {
+  margin-bottom: 7px;
+  margin-left: 15px;
+}
+
+.header-top-left-end ul {
+  column-gap: 20px;
+  height: 16px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.header-top-left ul li a i {
+  padding-right: 5px;
+}
+
+.header-top-left-end ul li a {
+  color: white;
+  font-size: 12px;
+}
+
+.header-top-right {
+  justify-content: left;
+  width: 500px;
+  margin-left: 80px;
+  margin-bottom: 7px;
+}
+
+.header-top-right ul {
+  display: flex;
+  margin-bottom: 5px;
+  height: 16px;
+  column-gap: 60px;
+}
+
+.header-top-right ul {
+  list-style: upper-roman;
+}
+
+.header-top-right ul li a {
+  color: white;
+  font-size: 12px;
+}
+
+.header-top-right ul li span {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+/* ! Header Top End */
+
+/* ! Header Bottom Start */
+
+.header-bottom-container {
+  width: 1300px;
+  height: 75, 2px;
+  margin-left: 84px;
+  margin-right: 84px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.header-bottom-side-menu {
+  padding: 0px 0px;
+  margin: 0px 0px;
+
+  width: 65px;
+  height: 55.2px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.header-bottom-side-menu #s7{
+display: block;
+  font-size: 10px;
+}
+
+
+.header-bottom-side-menu .bar-button {
+  width: 65px;
+  height: 55.2px;
+  background-color: transparent;
+  border: none;
+}
+
+.header-bottom-side-menu .bar-button .fa-bars {
+  color: black;
+  font-size: 25px;
+}
+
+
+
+.header-dropdown-menu.show {
+  display: block;
+}
+
+.header-dropdown-menu {
+  width: 270px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0; 
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: none; 
+  z-index: 1;
+  padding-top: 80px;
+}
+
+
+
+.header-dropdown-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; 
+  flex-direction: column; 
+  padding-top: 30px;
+}
+
+.header-dropdown-menu li {
+  margin-bottom: 25px;
+}
+
+
+.header-dropdown-menu a {
+  color: #333;
+  text-decoration: none;
+}
+
+
+.header-bottom-container img {
+  width: 156px;
+  height: 55.2px;
+  margin-left: 0px;
+}
+
+.header-bottom-container ul {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  column-gap: 26px;
+}
+
+.header-bottom-container .input-group {
+  display: flex;
+  align-items: center;
+}
+
+.header-bottom-container .input-group input::placeholder {
+  text-align: left;
+  padding-left: 0px;
+}
+
+.header-bottom-search {
+  width: auto;
+  height: 55.2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.header-bottom-search #search #searchBarx {
+  width: 341px;
+  height: 38px;
+  border-radius: 20px 0 0 20px;
+  border: 2px solid #f15927;
+  padding-left: 30px;
+}
+
+.header-bottom-container #search #searchButton {
+  width: 45px;
+  height: 38px;
+  border-radius: 0 20px 20px 0;
+  border: none;
+  background-color: #f15927;
+}
+
+.header-bottom-container #search #btn1 {
+  color: white;
+  font-size: 20px;
+  padding-right: 2px;
+  padding-top: 1px;
+  align-items: center;
+  margin-top: 1px;
+}
+
+.header-bottom-coupon {
+  width: auto;
+  height: 55.2px;
+  border: 1px solid black;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-bottom-coupon a {
+  width: 156px;
+  height: 29px;
+  color: blue;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: 0.5px solid rgb(208, 207, 207);
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.header-bottom-coupon a span {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+  font-size: 12px;
+}
+
+.header-bottom-container .short-menu {
+  width: auto;
+  height: 55.2px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header-bottom-container .short-menu .i1 {
+  padding-left: 15px;
+}
+
+.header-bottom-container .short-menu .i1 .fa-heart {
+  font-size: 17px;
+}
+
+.header-bottom-container .short-menu .i2 .fa-cart-shopping {
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+/* ! Header Bottom End */
+
+
+
+
+/* ! Header Menu Start */
+
+.header-menu-container {
+  width: 1482px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.responsive {
+  width: 1314px;
+  height: 38px;
+  justify-content: space-between;
+
+
+}
+
+
+.header-menu-container .mega-menu {
+  padding: 0px 0px;
+  margin: 0px 0px;
+  width: 1314px;
+  height: 20.8px;
+  column-gap: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+
+
+}
+
+/* ! Header Menu End */
+
+
+/* responsive */
+
+@media (max-width: 655px) {
+
+.header-top{
+  display: none;
+}
+
+.header-bottom-search {
+  display: none;
+}
+
+.header-bottom-mnu{
+  display: none;
+}
+
+.header-bottom-coupon{
+  display: none;
+}
+
+
+  .header-menu-container {
+ display: none;
+  }
+  .responsive {
+    display: block;
+  }
+
+  .container{
+    display: none;
+  }
+
+  .header-bottom-container{
+    margin-left: 10px;
+    max-width: 95%;
+    
+  }
+
+.header-dropdown-menu {
+  width: 200px;
+}
+
+.bar-button{
+  margin-left: 28px;
+}
+
+
+}
+
+
+/* ?!? Header End !!! */

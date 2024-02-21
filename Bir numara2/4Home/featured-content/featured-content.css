@@ -1,0 +1,121 @@
+/* featured4-content start */
+
+.f4-container {
+    width: 1300px;
+    height: 260px;
+    margin-left: 120px;
+    margin-top: 50px;
+    display: flex;
+    border-top: 1px solid rgb(149, 149, 149);
+  }
+  
+
+  
+  
+  .menu-left4 {
+    width: 370px;
+    height: 258px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-left4 #spn1 {
+    margin-top: 10px;
+    margin-left: 52px;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+    font-size: 25px;
+    color: white;
+    border-radius: 50px;
+    background-color: #f15927;
+  }
+  
+  .menu-left4 .product4 {
+    width: 380px;
+    height: 260px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .menu-left4 .product4 img {
+    width: 370px;
+    height: 258px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  .menu-right4 {
+    flex: 1;
+    width: 866px;
+    height: 281px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: 10px;
+  
+    column-gap: 3px;
+  }
+  
+  .menu-right4 .product4 h4 {
+    font-size: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .product-grid4 {
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  
+    width: 175px;
+    height: 260px;
+    flex-wrap: nowrap;
+  }
+  
+  .product-grid4:hover {
+    border-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  }
+  
+  .product-item4 {
+    padding-top: 20px;
+    border: none;
+  }
+  
+  .product-item4 img {
+    width: 145px;
+    height: 136px;
+  }
+  
+  .product-item4 #k1 {
+    font-size: 13px;
+    text-decoration: line-through;
+  }
+  
+  .product-item4 #k2 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  /* featured4-content end */
+
+  /* responsive */
+
+  @media (max-width: 655px){
+
+  .f4-container {
+display: none;
+
+  }
+
+  
+
+}

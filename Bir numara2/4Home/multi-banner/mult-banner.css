@@ -1,0 +1,157 @@
+/* home-multi-banner */
+
+.banner {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 120px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.banner-item {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.banner-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* home-multi-banner end */
+
+/* multi-banner-start */
+
+.banner2 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 120px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.banner-item2 {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.banner-item2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* multi-banner-end */
+
+/* multi-banner3 start */
+
+.banner5 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 113px;
+  margin-right: 100px;
+  width: 1300px;
+  height: 530px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.row5 {
+  display: flex;
+}
+
+.banner-item5 {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.banner-item5 img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* multi-banner3 end*/
+
+/* multi-banner4 */
+.banner6 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 111px;
+  margin-right: 100px;
+  width: 1300px;
+  height: 530px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.row6 {
+  display: flex;
+}
+
+.banner-item6 {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.banner-item6 img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* multi-banner4 */
+
+/* responsive */
+@media (max-width: 665px) {
+  .banner {
+    margin-left: 0px;
+    width: 99%;
+    height: 150px;
+    margin-top: 10px;
+  }
+
+  .banner2 {
+    width: 99%;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 0px;
+
+  }
+
+  .banner5 {
+    margin-left: 0px;
+
+    height: 150px;
+    width: 99%;
+    margin-top: 30px;
+
+  }
+
+  .banner6 {
+    margin-left: 0px;
+
+    height: 150px;
+
+    width: 99%;
+    margin-top: 30px;
+
+  }
+}

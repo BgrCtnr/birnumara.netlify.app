@@ -1,0 +1,153 @@
+/* swiper-wrapper */
+
+.category-page {
+  width: 1300px;
+  margin-left: 85px;
+  display: flex;
+}
+
+.breadcrumb{
+  width: 1300px;
+  height: 39px;
+  margin-left: 85px;
+  margin-top: 20px;
+}
+
+.breadcrumb ul {
+  display: flex;
+  column-gap: 20px;
+  font-size: 14px;
+  
+}
+
+
+.swiper-wrapper1 h2 {
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+.swiper1 {
+  width: 800px;
+  height: 250px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  display: flex;
+}
+
+.product-grid21 {
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+  width: 175px;
+  height: 250px;
+  border: 1px groove rgb(222, 211, 211);
+  flex-wrap: nowrap;
+}
+
+.product-grid21:hover {
+  border-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+.product-item21 {
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
+
+.product-item21 h4 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+
+.product-item21 img {
+  width: 80%;
+  height: auto;
+}
+
+.product-item21 #k1 {
+  font-size: 13px;
+  text-decoration: line-through;
+}
+
+.product-item21 #k2 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* swiper-wrapper end*/
+
+
+
+
+/* filter */
+
+.bf-form{
+margin-top: 10px;
+}
+
+
+  #filter-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 400px; /* Sabit genişlik */
+    margin: 0 auto;
+  }
+  
+  
+
+
+#filter-form h2 {
+  font-weight: 100;
+}
+
+#filter-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+
+#category {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+#price-range {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#filter-form div > div {
+  margin-bottom: 10px;
+}
+
+/* Butonlar */
+#filter-form button {
+  padding: 10px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#filter-form button:hover {
+  background-color: #0056b3;
+}
+
+#filter-form button + button {
+  margin-left: 10px;
+}
+
+
+/* filter */

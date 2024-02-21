@@ -1,0 +1,73 @@
+/*! base-css */
+@import url(/1BASE/base.css);
+/*! base-css */
+
+
+
+
+
+
+/*! header-css */
+@import url(/2HEADER/header.css);
+/*! header-css */
+
+
+
+
+
+
+/*! slider-css */
+@import url(3SLIDER/slider.css);
+/*! slider-css */
+
+
+
+
+
+
+
+/*! home-css */
+@import url(/4Home/multi-banner/mult-banner.css);
+@import url(/4Home/featured-chance/featured.css);
+@import url(/4Home/featured-content/featured-content.css);
+@import url(/4Home/Home-list/homelist.css);
+@import url(/4Home/home-seo-text/homeseotext.css);
+@import url(/4Home/marketplace-banner/marketplace.css);
+@import url(/4Home/multi-banner/mult-banner.css);
+@import url(/4Home/populercategories/populercategories.css);
+@import url(/4Home/s-banner/s-banner.css);
+@import url(/4Home/swiper-wrapper/swipperwrapper.css);
+/*! home-css */
+
+
+
+
+
+
+
+
+/*! categories-css */
+@import url(/5CATEGORİES/categories.css);
+/*! categories-css */
+
+
+
+
+
+
+
+
+/*! products-css */
+@import url(/5CATEGORİES/products.css);
+/*! products-css */
+
+
+
+
+
+
+
+
+/*! footer-css */
+@import url(/7Footer/footer.css);
+/*! footer-css */

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body{
+    overflow-x: hidden;
+
+}
+
+
+/* responsive */
+
+
+@media (max-width: 655px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+
+}
